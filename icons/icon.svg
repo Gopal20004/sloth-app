@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Sloth: the controller drawn as rows of dots, on a black tile. Same design as src/DottedMark.tsx. -->
+  <defs>
+    <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse" x="6" y="0"><circle cx="22" cy="22" r="10" fill="#f4f4f5"/></pattern>
+    <clipPath id="shape"><path d="M142 89C100 91 88 138 77 189L65 252C61 282 91 308 115 280L161 232H339L385 280C409 308 439 282 435 252L423 189C412 138 400 91 358 89Z"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0a0a0a"/>
+  <g transform="translate(256 262) scale(0.86) translate(-250 -199.5)">
+    <rect x="48" y="74" width="404" height="252" fill="url(#dots)" clip-path="url(#shape)"/>
+    <path d="M142 89C100 91 88 138 77 189L65 252C61 282 91 308 115 280L161 232H339L385 280C409 308 439 282 435 252L423 189C412 138 400 91 358 89Z" fill="none" stroke="#f4f4f5" stroke-width="16" stroke-linejoin="round"/>
+    <circle cx="179" cy="212" r="40" fill="#0a0a0a" stroke="#f4f4f5" stroke-width="14"/>
+    <circle cx="321" cy="212" r="40" fill="#0a0a0a" stroke="#f4f4f5" stroke-width="14"/>
+    <path d="M205 112H295" stroke="#caff8b" stroke-width="16" stroke-linecap="round"/>
+  </g>
+</svg>
